@@ -1,0 +1,49 @@
+CS2303 HW 1
+Michael Alicea
+michaelalicea
+
+##File
+
+Num.c
+
+This is a simple program that will take an input of a number and will output that number
+To use it type ./num (a number)
+
+./num 6
+
+"The number you entered was 6."
+
+## grades.c
+
+This program calculates the average grades of the amount of grades inputted, and gives the highest and lowest values in the inputted set.
+
+To use the program you would input ./grades (grade 1) (grade 2)... (grade x)
+
+Typing ./grades 1 2 3 4 5 6
+Will result in the output
+
+Number of grades entered 6
+Grade 1
+Grade 2
+Grade 3
+Grade 4
+Grade 5
+Grade 6
+Grade: 3.5000
+High: 6
+Low: 1
+
+This program handles the use of MAX_GRADES (20) by checking if the number of inputted grades are larger than 20, and then only processing the first 20 grades.
+
+It will output
+Too many inputs! Using the first 20 grades.
+Number of grades entered 20.
+...
+
+
+## leap.c
+
+This file takes an input year and will tell if the given year was a leapyear
+
+
+
